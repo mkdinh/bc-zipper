@@ -1,0 +1,22 @@
+{
+  "name": "bc-zipper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.0",
+    "jszip": "^3.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
