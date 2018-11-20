@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "bc-zipper": "./index.js"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -14,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node .",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

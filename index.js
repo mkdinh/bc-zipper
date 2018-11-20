@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const config = require("./config/config.json");
 const Prompt = require("./lib/Prompt");
 
