@@ -34,6 +34,7 @@ module.exports = {
       message: "Select Week:",
       type: "list",
       choices: weeks,
+      pageSize: 10,
     },
   ],
 
@@ -42,7 +43,7 @@ module.exports = {
       name: "day",
       message: "Select Day:",
       type: "list",
-      choices: days,
+      choices: [...days, "Return"],
     },
   ],
 
